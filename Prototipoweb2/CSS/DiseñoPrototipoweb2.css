@@ -1,0 +1,289 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    width: 62%;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    width: 100%;
+    height: 172px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+.botones {
+    margin-right: 3px;
+    margin-top: 10px;
+    margin-left: 330px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.botones button {
+    height: 1rem;
+    width: 2rem;
+    border: transparent;
+    cursor: pointer;
+    background-color: rgb(224, 224, 224);
+    color: rgb(0, 0, 0);
+    margin-left: 0.2rem;
+}
+
+.botones button:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none;
+    font-family: arial, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0px 10px;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
+
+a:hover {
+    background-color: rgb(10, 75, 166);
+    padding: 10px;
+    color: white;
+}
+
+.menu {
+    width: 100%;
+    height: 55px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    margin: auto;
+    align-items: center;
+    gap: 20px;
+}
+
+.buscar {
+    font-family: arial, Arial, Helvetica, sans-serif;
+    width: 50%;
+    height: 35px;
+    border: 2px solid rgb(122, 119, 119);
+
+    margin: 1em;
+    box-shadow: 0 2px 3px rgb(122, 119, 119);
+    margin-left: 1rem;
+}
+
+.jader1 {
+    display: flex;
+    align-items: flex-start;
+    font-family: 'Send Flowers', cursive;
+    font-size: 24px;
+}
+
+.jader2 {
+    flex-direction: column;
+    margin-top: 2px;
+}
+
+
+.imagen {
+    margin-top: 23px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    width: 100%;
+    height: 66px;
+    background-color: rgb(255, 255, 255);
+}
+
+main {
+    margin-top: 23px;
+
+    background-color: rgba(6, 180, 108, 0.637);
+    width: 70%;
+    height: 50rem;
+    margin-bottom: 1rem;
+}
+
+.imagencentro {
+    margin-left: 20px;
+}
+
+.caja1 {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    align-items:left;
+    display: flex;
+    flex-direction: column;
+}
+
+.caja1 h3{
+    color: white;
+    font-family: arial, Arial, Helvetica, sans-serif;
+}
+.caja2 {
+    margin-top: 1rem;
+    flex-direction: row;
+    display: flex;
+}
+
+.leter {
+    margin-left: 10px;
+}
+
+.top {
+    width: 100%;
+    background-color: white;
+    height: 18rem;
+    margin-top: 0.4rem;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.alinear {
+    display: flex;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+#texto {
+    margin-left: 1rem;
+    margin-bottom: 8rem
+}
+
+.caja3 {
+    justify-content: space-between;
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 3rem;
+}
+
+.caja3 button {
+    background-color: rgb(141, 73, 73);
+    color: white;
+    border: transparent;
+    cursor: pointer;
+    width: 6rem;
+    height: 3rem;
+}
+
+.caja3 button:hover {
+    background-color: rgb(19, 10, 10);
+}
+
+.contenidoS {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buscar1 {
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.buscar1 button {
+    height: 100%;
+    width: 20%;
+    background-color: #000000;
+    border: transparent;
+    cursor: pointer;
+    text-shadow: .1rem .1rem rgb(238, 234, 234);
+}
+
+.buscar1 button :hover {
+
+    background-color: #222020;
+}
+
+.searchM {
+    width: 80%;
+}
+
+.ls {
+    width: 50%;
+    margin-top: 1rem;
+    height: 3%;
+}
+
+.asides {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.bottom {
+    margin-top: 2%;
+    background-color: white;
+    height: 12rem;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.contenidoB {
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+.rpic {
+    justify-content: space-between;
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 3rem;
+}
+
+.rpic img {
+    width: 20%;
+    height: 20%;
+}
+
+.imgfoot{
+    justify-content: space-between;
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 1rem;
+}
+
+.imgfoot p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin-left: 25px;
+}
+
+.review{
+    margin: auto;
+    margin-top: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+footer{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: 5rem;
+    margin-bottom: 3rem;
+
+}
+
+.linkz {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
